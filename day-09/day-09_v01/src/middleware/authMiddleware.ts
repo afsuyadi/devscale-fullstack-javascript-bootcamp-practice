@@ -1,0 +1,32 @@
+import { createMiddleware } from "hono/factory";
+import { HTTPException } from "hono/http-exception";
+import jwt from "jsonwebtoken";
+import { prisma } from "../modules/utils/prisma";
+
+export const authMiddleware = createMiddleware(async (c, next) => {
+    // As middleware
+    const token = c.req.header('token')
+
+    if (!token){
+        throw new HTTPException(401, {message : "Unauthorized"})
+    }
+
+    try {
+        const payload = jwt.verify(token, process.env.JWT_SECRET!)
+
+        const user = await prisma.user.findUnique({
+            where : {
+                id : Number(payload.sub)
+            },
+            select : {
+                id : true,
+                email : true,
+            }
+        })
+
+        c.set("user", user!)
+        await next();
+    } catch (error) {
+        throw new HTTPException(401, {message : "Invalid token"})
+    }
+})

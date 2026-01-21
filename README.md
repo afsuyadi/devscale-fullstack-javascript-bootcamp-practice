@@ -53,9 +53,9 @@ Legend:
 | Day 5 |30-12-2025|Backend Development and Basic Hono.js| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 6 |01-01-2026|Body handling and Prisma ORM| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 7 |06-01-2026|Database Design and Implementation| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Day 8 |08-01-2026|App Deployments| ✅  | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Day 8 |08-01-2026|App Deployments| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 9 |13-01-2026|Authentication & Authorization| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Day 10 |15-01-2026|Tanstack React.js| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Day 10 |15-01-2026|Tanstack React.js| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 11 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 12 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 13 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -77,9 +77,9 @@ Legend:
 ```
 .
 ├── day-01/
-│   ├── rep-01-make-it-work/
-│   ├── rep-02-understand-it/
-│   ├── rep-03-do-it-right/
+│   ├── day-01_v01/
+│   ├── day-01_v02/
+│   ├── day-01_v03/
 │   └── notes.md
 ├── day-02/
 ├── day-03/
@@ -126,3 +126,4 @@ Future me will thank present me for choosing discipline over motivation.
 ---
 
 **Last updated:** _(update this manually)_
+- Add day-09_v01 and day-10_v01
