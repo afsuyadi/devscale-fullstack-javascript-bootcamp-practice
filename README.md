@@ -56,7 +56,7 @@ Legend:
 | Day 8 |08-01-2026|App Deployments| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 9 |13-01-2026|Authentication & Authorization| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 10 |15-01-2026|Tanstack React.js| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Day 11 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Day 11 |20-01-2026|React Hook - useState, useEffect, useContext, and Jotai| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 12 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 13 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Day 14 |...|...| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -127,3 +127,4 @@ Future me will thank present me for choosing discipline over motivation.
 
 **Last updated:** _(update this manually)_
 - Add day-09_v01 and day-10_v01
+- Add day-11_v01 (var : standard webpage)
